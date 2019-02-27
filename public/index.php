@@ -1,0 +1,28 @@
+<?php 
+
+require_once "../vendor/autoload.php";
+
+use App\Model\Usuario;
+
+$usuario = new Usuario();
+
+/**
+
+require_once "../env.php"
+
+
+require_once "../App/View/header.phtml";
+
+
+if(isSet($_SESSION['logado'])){
+	var_dump($_SESSION['logado']);
+	require_once "../App/View/home/index.phtml";
+}
+else
+{
+	require_once "../App/View/login/index.phtml";	
+}
+
+require_once "../App/View/footer.phtml";
+
+*/
