@@ -4,7 +4,7 @@ require_once "../vendor/autoload.php";
 
 use App\Model\Usuario;
 
-$usuario = new Usuario();
+$usuario = new Usuario(null, "leandro", "leandro@gmail.com", "1234", 1, 1);
 
 /**
 
